@@ -159,6 +159,12 @@ ul {
   transition: var(--main-transition);
 }
 
+@media (max-width: 767px) {
+  .header .main-nav>li>a {
+    padding: 0 20px;
+  }
+}
+
 .header .main-nav>li>a::before {
   content: "  ";
   position: absolute;
